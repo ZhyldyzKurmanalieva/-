@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("Lato-Light.eot");
+  src: local("Lato Light"), local("Lato-Light"), url("Lato-Light.eot?#iefix") format("embedded-opentype"), url("Lato-Light.woff") format("woff"), url("Lato-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.block-footer {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #282C37;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
