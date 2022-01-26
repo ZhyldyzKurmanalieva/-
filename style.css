@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.header{
+  width: 100%;
+}
+.container{
+  max-width: 1171px;
+  margin: 0 auto;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFFFFF;
+
+}
+.header__subtitle{
+  width: 106px;
+height: 28px;
+font-size: 16px;
+line-height: 14px;
+font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 14px;
+/* or 87% */
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #282C37;
+
+
+}
+
+
+.first-logo{
+  font-family: Lato;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 14px;
+/* or 87% */
+
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #282C37;
+  display: flex;
+  gap: 7px;
+}
+  
+
+li{
+  list-style-type: none;
+}
+.nav{
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  gap: 121px;
+  
+
+}
+.burger-header{
+  border: none;
+
+}
+
+
+
+.logo-3{
+  display: flex;
+  gap:23px;
+}
+.facebook:hover{
+  background: orange;
+ transition: 0.2s;
+ border-radius: 50%;
+}
+.whatsapp:hover{
+  background: orange;
+ transition: 0.2s;
+ border-radius: 50%;
+}
+.telegram:hover{
+  background: orange;
+ transition: 0.2s;
+ border-radius: 50%;
+}
+@media  screen and (max-width: 1000px){
+  .nav{
+    display: none;
+  }
+  .logo-3 {
+    display: none;
+  }
+}
+@media  screen and (max-width: 1000px){
+  .first-logo{
+    margin-left: 50px;
+  }
+  .burger-header {
+    margin-right: 50px;
+  }
+}
+
